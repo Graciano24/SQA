@@ -1,0 +1,98 @@
+{
+    "id": "LoneWolfAcademy",
+    "start_url": "./index.html",
+    "name": "LoneWolfAcademy",
+    "short_name": "LWA",
+    "description": "Mari Belajar Dengan Giat",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#D84315",
+    "icons": [
+
+        {
+          "src": "icon/wolf-16.png",
+          "sizes": "72x72",
+          "type": "image/png",
+          "purpose": "any"
+        },
+        {
+          "src": "icon/wolf-48.png",
+          "sizes": "96x96",
+          "type": "image/png",
+          "purpose": "any"
+        },
+        {
+          "src": "icon/wolf-64.png",
+          "sizes": "128x128",
+          "type": "image/png",
+          "purpose": "any"
+        },
+        {
+          "src": "icon/wolf-72.png",
+          "sizes": "144x144",
+          "type": "image/png",
+          "purpose": "any"
+        },
+        {
+          "src": "icon/wolf-96.png",
+          "sizes": "152x152",
+          "type": "image/png",
+          "purpose": "any"
+        },
+        {
+          "src": "icon/wolf-128.png",
+          "sizes": "192x192",
+          "type": "image/png",
+          "purpose": "any"
+        },
+        {
+          "src": "icon/wolf-144.png",
+          "sizes": "384x384",
+          "type": "image/png",
+          "purpose": "any"
+        },
+        {
+          "src": "icon/wolf-152.png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "any"
+        },
+        {
+          "src": "icon/wolf-180.png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "any"
+        },
+        {
+          "src": "icon/wolf-192.png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "any"
+        },
+        {
+          "src": "icon/wolf-256.png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "any"
+        },
+        {
+          "src": "icon/wolf-512.png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "any"
+        }
+      ],
+      "screenshots": [
+      {
+        "src": "icon/icon-1920x1080.png",
+        "type": "image/png",
+        "sizes": "1920x1080",
+        "form_factor": "wide"
+      },
+      {
+        "src": "icon/Frame 6.png",
+        "type": "image/png",
+        "sizes": "576x1280"
+      }
+    ]
+}
