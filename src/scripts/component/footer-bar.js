@@ -10,7 +10,7 @@ class FooterBar extends HTMLElement {
               </div>
               <p>Jalan Duri No. 90, Duri Kepa, Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta 20123</p>
               <div class="sosmed">
-                <a href="https://www.instagram.com/dicoding/"><img src="./img/instagram.png" width="100" height="50" alt="instagram"></a>
+                <a href="https://www.instagram.com/dicoding/"><img src="./img/instagram.png" width="200" height="50" alt="instagram"></a>
                 <a href="https://www.youtube.com/@DicodingIndonesia"><img src="./img/youtube.png" width="100" height="50" alt="youtube"></a>
                 <a href="https://x.com/dicoding"><img src="./img/twitter.png" width="100" height="50" alt="twitter"></a>
               </div>

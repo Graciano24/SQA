@@ -3,12 +3,12 @@ class LogoPartner extends HTMLElement{
         this.innerHTML = `
             <div class="logoPartner">
                 <ul>
-                    <li><img src="./img/wolf.png" width="600" height="100" alt="logoPartner"></li>  
-                    <li><img src="./img/wolf.png" width="600" height="100" alt="logoPartner"></li>  
-                    <li><img src="./img/wolf.png" width="600" height="100" alt="logoPartner"></li>  
-                    <li><img src="./img/wolf.png" width="600" height="100" alt="logoPartner"></li>  
-                    <li><img src="./img/wolf.png" width="600" height="100" alt="logoPartner"></li>  
-                    <li><img src="./img/wolf.png" width="600" height="100" alt="logoPartner"></li>  
+                    <li><img src="./img/wolf.png" width="400" height="100" alt="logoPartner"></li>  
+                    <li><img src="./img/wolf.png" width="400" height="100" alt="logoPartner"></li>  
+                    <li><img src="./img/wolf.png" width="400" height="100" alt="logoPartner"></li>  
+                    <li><img src="./img/wolf.png" width="400" height="100" alt="logoPartner"></li>  
+                    <li><img src="./img/wolf.png" width="400" height="100" alt="logoPartner"></li>  
+                    <li><img src="./img/wolf.png" width="400" height="100" alt="logoPartner"></li>  
                 </ul>
             </div>
         `
