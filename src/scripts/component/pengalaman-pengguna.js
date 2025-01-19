@@ -1,6 +1,6 @@
-class PengalamanPengguna extends HTMLElement{
-    connectedCallback(){
-        this.innerHTML=`
+class PengalamanPengguna extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
             <div class="pengalamanPengguna">
                 <div class="judulMenu">
                     <div class="aksesorisMenu"></div>
@@ -15,10 +15,14 @@ class PengalamanPengguna extends HTMLElement{
                             <p>Juara 1 Matematika Internasional</p>
                         </div>
                     </div>
-                    <img src="./img/profil.jpg" width="700" height="450" alt="foto orangnya" loading="lazy">
+                    <picture>
+                        <source srcset="./img/profil.avif" type="image/avif">
+                        <source srcset="./img/profil.webp" type="image/webp">
+                        <img src="./img/profil.jpg" width="600" height="450" alt="foto orangnya" loading="lazy">
+                    </picture>
                 </div>
             </div>
-        `
+        `;
     }
 }
-customElements.define('pengalaman-pengguna', PengalamanPengguna)
+customElements.define('pengalaman-pengguna', PengalamanPengguna);
