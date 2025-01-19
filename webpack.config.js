@@ -19,7 +19,7 @@ module.exports = {
         use: ['style-loader', 'css-loader']
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif|webmanifest)$/i,
+        test: /\.(png|svg|jpg|jpeg|gif|webmanifest|webp|avif)$/i,
         type: 'asset/resource'
       },
       {
@@ -27,7 +27,7 @@ module.exports = {
         loader: 'html-loader',
       },
       {
-        test: /\.(png|jpe?g|gif)$/i, // new rule for image files
+        test: /\.(png|jpg|jpeg|gif|webp|avif)$/i, // new rule for image files
         use: [
           {
             loader: 'file-loader',
