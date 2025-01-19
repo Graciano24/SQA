@@ -16,9 +16,13 @@ class PengalamanPengguna extends HTMLElement {
                         </div>
                     </div>
                     <picture>
-                        <source srcset="./img/profil.avif" type="image/avif">
-                        <source srcset="./img/profil.webp" type="image/webp">
-                        <img src="./img/profil.jpg" width="600" height="450" alt="foto orangnya" loading="lazy">
+                        <source srcset="./img/profil-480w.avif 480w, ./img/profil-600w.avif 600w" type="image/avif">
+                        <source srcset="./img/profil-480w.webp 480w, ./img/profil-600w.webp 600w" type="image/webp">
+                        <img src="./img/profil.jpg" 
+                             srcset="./img/profil-480w.jpg 480w, ./img/profil-600w.jpg 600w"
+                             sizes="(max-width: 600px) 480px, 600px"
+                             width="600" height="450"
+                             alt="foto orangnya" loading="lazy">
                     </picture>
                 </div>
             </div>
