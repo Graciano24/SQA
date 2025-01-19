@@ -5,7 +5,7 @@ class AppBar extends HTMLElement {
                 <nav>
                     <div class="logo">
                         <a href="/">
-                            <img src="./img/wolf.png" width="144" height="144" loading="lazy">
+                            <img src="./img/wolf.png" width="144" height="144" alt="" loading="lazy">
                             <p class="webTitle">LoneWolf</p>
                         </a>
                     </div>
