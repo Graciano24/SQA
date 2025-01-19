@@ -15,7 +15,15 @@ class PengalamanPengguna extends HTMLElement{
                             <p>Juara 1 Matematika Internasional</p>
                         </div>
                     </div>
-                    <img src="./img/profil.jpg" width="700" height="450" alt="foto orangnya" loading="lazy">
+                    <img
+                      src="./img/profil.jpg"
+                      srcset="./img/profil-200w.jpg 200w, ./img/profil-400w.jpg 400w, ./img/profil-700w.jpg 700w"
+                      sizes="(max-width: 600px) 200px, (max-width: 1200px) 400px, 700px"
+                      width="700"
+                      height="450"
+                      alt="foto orangnya"
+                      loading="lazy"
+                    >
                 </div>
             </div>
         `
