@@ -5,7 +5,7 @@ class FooterBar extends HTMLElement {
           <div class="detailFooter">
             <div class="detailInstansi">
               <div class="logo">
-                <img src="./img/wolf.png" alt="logo">
+                <img src="./img/wolf.png" width="72" height="72" alt="LoneWolf" loading="lazy">
                 <p>LoneWolf</p>
               </div>
               <p>Jalan Duri No. 90, Duri Kepa, Kebon Jeruk, Kota Jakarta Barat, DKI Jakarta 20123</p>
