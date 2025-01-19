@@ -9,7 +9,15 @@ class PilihanPembelajaran extends HTMLElement{
                 <div class="listPembelajaran">
                     <a href="./bukuMatematika.html">
                         <div class="pembelajaran">
-                            <img src="./img/keys.png" width="600" height="400" alt="ikon pembelajaran" loading="lazy">
+                            <img
+                              src="./img/keys.png"
+                              srcset="./img/keys-200w.png 200w, ./img/keys-400w.png 400w, ./img/keys-600w.png 600w"
+                              sizes="(max-width: 600px) 200px, (max-width: 1200px) 400px, 600px"
+                              width="600"
+                              height="400"
+                              alt="ikon pembelajaran"
+                              loading="lazy"
+                            >
                             <div class="detail">
                                 <h3 class="judulPembelajaran">Matematika</h3>
                                 <p class="definisiPembelajaran">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore molestiae harum perferendis eum eaque cum est ut.</p>
@@ -18,7 +26,15 @@ class PilihanPembelajaran extends HTMLElement{
                     </a>
                     <a href="./bukuSejarah.html">
                         <div class="pembelajaran">
-                            <img src="./img/history.png" width="400" height="200" alt="ikon pembelajaran" loading="lazy">
+                            <img
+                              src="./img/history.png"
+                              srcset="./img/history-200w.png 200w, ./img/history-400w.png 400w, ./img/history-600w.png 600w"
+                              sizes="(max-width: 600px) 200px, (max-width: 1200px) 400px, 600px"
+                              width="600"
+                              height="400"
+                              alt="ikon pembelajaran"
+                              loading="lazy"
+                            >
                             <div class="detail">
                                 <h3 class="judulPembelajaran">Sejarah</h3>
                                 <p class="definisiPembelajaran">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore molestiae harum perferendis eum eaque cum est ut.</p>
@@ -27,7 +43,15 @@ class PilihanPembelajaran extends HTMLElement{
                     </a>
                     <a href="./bukuSains.html">
                         <div class="pembelajaran">
-                            <img src="./img/science.png" width="400" height="200" alt="ikon pembelajaran" loading="lazy">
+                            <img
+                              src="./img/science.png"
+                              srcset="./img/science-200w.png 200w, ./img/science-400w.png 400w, ./img/science-600w.png 600w"
+                              sizes="(max-width: 600px) 200px, (max-width: 1200px) 400px, 600px"
+                              width="600"
+                              height="400"
+                              alt="ikon pembelajaran"
+                              loading="lazy"
+                            >
                             <div class="detail">
                                 <h3 class="judulPembelajaran">Sains</h3>
                                 <p class="definisiPembelajaran">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore molestiae harum perferendis eum eaque cum est ut.</p>
@@ -36,7 +60,15 @@ class PilihanPembelajaran extends HTMLElement{
                     </a>
                     <a href="./bukuUmum.html">
                         <div class="pembelajaran">
-                            <img src="./img/alphabet.png" width="600" height="400" alt="ikon pembelajaran" loading="lazy">
+                            <img
+                              src="./img/alphabet.png"
+                              srcset="./img/alphabet-200w.png 200w, ./img/alphabet-400w.png 400w, ./img/alphabet-600w.png 600w"
+                              sizes="(max-width: 600px) 200px, (max-width: 1200px) 400px, 600px"
+                              width="600"
+                              height="400"
+                              alt="ikon pembelajaran"
+                              loading="lazy"
+                            >
                             <div class="detail">
                                 <h3 class="judulPembelajaran">Umum</h3>
                                 <p class="definisiPembelajaran">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore molestiae harum perferendis eum eaque cum est ut.</p>
