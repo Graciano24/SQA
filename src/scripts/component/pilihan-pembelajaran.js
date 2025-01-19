@@ -18,7 +18,7 @@ class PilihanPembelajaran extends HTMLElement{
                     </a>
                     <a href="./bukuSejarah.html">
                         <div class="pembelajaran">
-                            <img src="./img/history.png" width="200" height="200" alt="ikon pembelajaran" loading="lazy">
+                            <img src="./img/history.png" width="100" height="100" alt="ikon pembelajaran" loading="lazy">
                             <div class="detail">
                                 <h3 class="judulPembelajaran">Sejarah</h3>
                                 <p class="definisiPembelajaran">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore molestiae harum perferendis eum eaque cum est ut.</p>
@@ -27,7 +27,7 @@ class PilihanPembelajaran extends HTMLElement{
                     </a>
                     <a href="./bukuSains.html">
                         <div class="pembelajaran">
-                            <img src="./img/science.png" width="200" height="200" alt="ikon pembelajaran" loading="lazy">
+                            <img src="./img/science.png" width="100" height="100" alt="ikon pembelajaran" loading="lazy">
                             <div class="detail">
                                 <h3 class="judulPembelajaran">Sains</h3>
                                 <p class="definisiPembelajaran">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore molestiae harum perferendis eum eaque cum est ut.</p>
