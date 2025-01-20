@@ -270,6 +270,8 @@ footer{
 }
 .logo>img{
     width: 75px;
+    height: auto;
+    object-fit: contain;
 }
 .logo>p{
     font-size: x-large;
@@ -289,6 +291,8 @@ footer{
 }
 .sosmed>a>img{
     width: 30px;
+    height: auto;
+    object-fit: contain;
 }
 .service{
     width: 300px;
