@@ -145,6 +145,8 @@ nav{
 }
 .logoPartner>ul>li>img{
     width: 6vw;
+    height: auto; /* Mengatur tinggi otomatis agar menjaga aspect ratio */
+    object-fit: contain;
     padding: 1rem;
 }
 
