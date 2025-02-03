@@ -22,25 +22,25 @@
                 </a>
             </div>
             <div class="quiz">
-                <a href="#">
+                <a href="#" onclick="notifyNotCreated(event)">
                     <span class="nomor">2</span>
                     <p class="namaQuiz">Umum Quiz</p>
                 </a>
             </div>
             <div class="quiz">
-                <a href="#">
+                <a href="#" onclick="notifyNotCreated(event)">
                     <span class="nomor">3</span>
                     <p class="namaQuiz">Umum Quiz</p>
                 </a>
             </div>
             <div class="quiz">
-                <a href="#">
+                <a href="#" onclick="notifyNotCreated(event)">
                     <span class="nomor">4</span>
                     <p class="namaQuiz">Umum Quiz</p>
                 </a>
             </div>
             <div class="quiz">
-                <a href="#">
+                <a href="#" onclick="notifyNotCreated(event)">
                     <span class="nomor">5</span>
                     <p class="namaQuiz">Umum Quiz</p>
                 </a>
@@ -79,5 +79,10 @@
         }
     })
     .catch(error => console.error('Error:', error));
+
+    function notifyNotCreated(event) {
+            event.preventDefault();
+            alert('Halaman sedang dalam tahap pengembangan');
+        }
 </script>
 </html>
